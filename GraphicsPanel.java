@@ -28,7 +28,7 @@ public class GraphicsPanel extends JPanel {
         g2.setColor(Color.WHITE);
         g2.fillRect(10,10,100,100);
         
-        BasicStroke b = new BasicStroke(10);
+        BasicStroke b = new BasicStroke(2);
 
         g2.setStroke(b);
         g2.setColor(Color.BLUE);
